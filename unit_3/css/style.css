@@ -1,0 +1,30 @@
+body{
+	background-color: lavender;
+
+}
+h1, p{
+	color: purple;
+}
+h1{
+	text-align: center;
+	text-decoration: underline;
+	font-family: helvetica;
+	text-transform: uppercase;
+}
+p{
+	text-align: center;
+	font-family: "courier new";
+	
+
+
+}
+ul, li{
+	color: purple;
+	font-family: "courier new";
+	font-weight: bold;
+	
+}
+#slogan{
+	font-style: italic;
+
+}
