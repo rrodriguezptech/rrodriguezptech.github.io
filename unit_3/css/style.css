@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo|Ubuntu');
+
 body{
 	background-color: lavender;
 
@@ -8,23 +10,28 @@ h1, p{
 h1{
 	text-align: center;
 	text-decoration: underline;
-	font-family: helvetica;
+	font-family: 'Cairo';
 	text-transform: uppercase;
 }
 p{
 	text-align: center;
-	font-family: "courier new";
+	font-family: 'Ubuntu';
 	
 
 
 }
 ul, li{
 	color: purple;
-	font-family: "courier new";
+	font-family: "Ubuntu";
 	font-weight: bold;
 	
 }
 #slogan{
 	font-style: italic;
 
+}
+
+img{
+	margin: auto;
+	display: block;
 }
