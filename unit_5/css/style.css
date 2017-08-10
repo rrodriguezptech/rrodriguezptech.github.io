@@ -4,10 +4,10 @@ body{
 	background-color: lavender;
 
 }
-h1, p{
+h1, p, h2{
 	color: purple;
 }
-h1{
+h1, h2{
 	text-align: center;
 	text-decoration: underline;
 	font-family: 'Cairo';
@@ -34,4 +34,28 @@ ul, li{
 img{
 	margin: auto;
 	display: block;
+}
+
+header{
+	background-color: #FFED74;
+}
+
+nav{
+	background-color: #E8C66A;
+}
+
+aside{
+	background-color: #FFC675;
+}
+
+article{
+	background-color: #E89C6C;
+}
+
+footer{
+	background-color: #FF957E;
+}
+
+div/ section{
+	background-color: #FFE2B8;
 }
