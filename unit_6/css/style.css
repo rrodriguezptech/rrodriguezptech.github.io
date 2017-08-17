@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo|Ubuntu');
+
+body{
+	background-color: #af5072;
+
+}
+h1, p, h2{
+	color: #FFB7CF;
+}
+h1, h2{
+	text-align: center;
+	text-decoration: underline;
+	font-family: 'Cairo';
+	text-transform: uppercase;
+}
+p{
+	text-align: center;
+	font-family: 'Ubuntu';
+	
+
+}
+ul, li{
+	color: #FFB7CF;
+	font-family: "Ubuntu";
+	font-weight: bold;
+	
+}
+
+
+#slogan{
+	font-style: italic;
+
+}
+
+img{
+	margin: auto;
+	display: block;
+	width: 350px;
+
+
+}
+
+header{
+	background-color: #FFED74;
+}
+
+nav{
+	background-color: #E8C66A;
+	font-family: 'Cairo';
+	text-align: center;
+}
+
+
+a{
+	text-decoration: none;
+	color: #FFB7CF;
+	font-family: 'Cairo';
+	padding-right: 30px;
+	
+
+
+}
+	
+
+ a:hover{
+background-color: #af5072;
+font-weight: bold;
+
+
+}
+
+
+aside{
+	background-color: #FFC675;
+}
+
+article{
+	background-color: #E89C6C;
+}
+
+footer{
+	background-color: #FF957E;
+}
+
+div/ section{
+		background-color: #FFE2B8;
+}
+
+#two_column {
+	  background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: #E582A2;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#right {
+    background-color: #E55B88;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;
+    width: 62%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+
+}
