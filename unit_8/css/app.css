@@ -1,0 +1,114 @@
+/**************************************************************************
+General
+***************************************************************************/
+.wrap{
+  width: 93%;
+  margin: auto;
+}
+
+body{
+  background-image: url("../images/weather/weather.png");
+}
+
+
+/***************************************************************************
+Navigation
+*****************************************************************************/
+.top-bar{
+  background-image: url("../images/weather/weather.png");
+}
+.top-bar ul{
+  background-color:transparent;
+  border-style: none;
+}
+.top-bar li{
+  background-image: url("../images/weather/weather.png");
+}
+.top-bar h4, .top-bar a{
+  color: #2CA1B7;
+font-family: 'Viga', sans-serif;
+  font-weight: bold;
+}
+
+
+
+/****************************************************************************
+Header
+*****************************************************************************/
+.name1{
+  color: #2CA1B7;
+font-family: 'Viga', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 5em;
+  width: 100%;
+ text-indent: 15px;
+
+}
+
+.header{
+  padding: 3em 0;
+  background-color: rgba(157, 229, 242, 0.5);
+}
+/***************************************************************************
+Main
+****************************************************************************/
+.main{
+  background-color:transparent;
+  padding: 2em 0;
+}
+.row{
+width: 100%;
+margin: auto;
+}
+.columns{
+  padding: 1em 2em;
+}
+.main h3{
+  font-family: 'Viga', sans-serif;
+    font-weight: bold;
+    color: #0F8AA1;
+}
+.main p{
+  color: #7CBBC6;
+font-family: 'Mitr', sans-serif;
+font-size: 1.3em;
+}
+.main img{
+max-width: 2px 2px;
+
+}
+.row{
+  max-width: 95%;
+  margin:0 2em;
+
+}
+/****************************************************************************
+Footer
+*****************************************************************************/
+.footer{
+  text-align: center;
+  background-color: #7CBBC6;
+  padding: 2em 0;
+  color: #0F8AA1;
+}
+.footer h3{
+    font-family: 'Viga', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.footer p{
+font-family: 'Mitr', sans-serif;
+  color: #0F8AA1;
+}
+.footer img{
+  height: 3em;
+  width: 3em;
+}
+.footer a{
+  color: #0F8AA1;
+}
+
+a:hover{
+  color:#D1D9DA;
+}
