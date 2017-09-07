@@ -112,3 +112,43 @@ font-family: 'Mitr', sans-serif;
 a:hover{
   color:#D1D9DA;
 }
+
+
+@media only screen and (max-width: 915px) {
+  h1 {
+    line-height: 1.3em;
+  }
+  img {
+    width: 300px;
+    text-align: center;
+  }
+
+  nav {
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding: 2em;
+  }
+
+}
+
+@media only screen and (max-width: 515px) {
+
+  nav a{
+    display: block;
+  }
+
+  nav{
+    padding: 2em;
+  }
+
+}
+
+@media only screen and (max-width: 430px) {
+  img {
+    width: 200px;
+  }
+
+  body{
+    line-height: 2em;
+  }
